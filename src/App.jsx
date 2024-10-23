@@ -10,6 +10,7 @@ import Sidebar from './components/Sidebar'
 function App() {
 
   const [recipeQueue, setRecipeQueue] = useState([])
+  const [prepareRecipe, setPrepareRecipe] = useState([])
 
   const addRecipeToQueue = (recipe) => {
     const isExist = recipeQueue.find(previousRecipe => previousRecipe.recipe_id === recipe.recipe_id)
@@ -20,7 +21,15 @@ function App() {
       alert('Recipe already exist in the queue')
     }
   }
-  console.log(recipeQueue)
+  const handleRemove = id => {
+    // find which recipe to remove 
+    const deleteRecipe = recipeQueue.find(recipe => recipe.recipe_id === id)
+    // remove from want to cook table 
+    const updateQueue = recipeQueue.filter(recipe => recipe.recipe_id !== id)
+    setRecipeQueue(updateQueue)
+    setPrepareRecipe([...prepareRecipe, deleteRecipe])
+  }
+  console.log(prepareRecipe)
 
   return (
     <div className='container mx-auto px-4'>
@@ -35,7 +44,7 @@ function App() {
         {/* cart section */}
         <Recipes addRecipeToQueue={addRecipeToQueue}></Recipes>
         {/* sidebar section  */}
-        <Sidebar recipeQueue={recipeQueue}></Sidebar>
+        <Sidebar recipeQueue={recipeQueue} handleRemove={handleRemove} prepareRecipe={prepareRecipe}></Sidebar>
       </section>
     </div>
   )
