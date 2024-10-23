@@ -1,12 +1,29 @@
 
 import './App.css'
+import Banner from './components/Banner'
+import Header from './components/Header'
+import OurRecipe from './components/OurRecipe'
+import Recipes from './components/Recipes'
+import Sidebar from './components/Sidebar'
 
 function App() {
 
   return (
-    <>
-      <h1 className='bg-red-200 text-center'>Vite + React</h1>
-    </>
+    <div className='container mx-auto px-4'>
+      {/* header section */}
+      <Header></Header>
+      {/* banner section */}
+      <Banner></Banner>
+      {/* our recipe section */}
+      <OurRecipe></OurRecipe>
+      {/* recipe cart section */}
+      <section className='flex flex-col md:flex-row gap-4'>
+        {/* cart section */}
+        <Recipes></Recipes>
+        {/* sidebar section  */}
+        <Sidebar></Sidebar>
+      </section>
+    </div>
   )
 }
 

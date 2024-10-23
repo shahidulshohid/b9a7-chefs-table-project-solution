@@ -1,0 +1,93 @@
+[
+    {
+      "recipe_id": 201,
+      "recipe_name": "Classic Margherita Pizza",
+      "recipe_image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?fit=crop&w=500&q=80",
+      "short_description": "A traditional Italian pizza topped with fresh mozzarella, basil, and tomato sauce.",
+      "ingredients": [
+        "2 cups all-purpose flour",
+        "1 tsp salt",
+        "1 cup water",
+        "1 tsp yeast",
+        "200g fresh mozzarella",
+        "1/2 cup tomato sauce",
+        "Fresh basil leaves",
+        "2 tbsp olive oil"
+      ],
+      "preparing_time": "45 minutes",
+      "calories": 450
+    },
+    {
+      "recipe_id": 202,
+      "recipe_name": "Spaghetti Carbonara",
+      "recipe_image": "https://images.unsplash.com/photo-1517433456452-f9633a875f6f?fit=crop&w=500&q=80",
+      "short_description": "A creamy pasta dish made with eggs, Parmesan cheese, pancetta, and black pepper.",
+      "ingredients": [
+        "400g spaghetti",
+        "150g pancetta",
+        "2 large eggs",
+        "1/2 cup grated Parmesan",
+        "1 tsp black pepper",
+        "2 cloves garlic",
+        "2 tbsp olive oil"
+      ],
+      "preparing_time": "30 minutes",
+      "calories": 600
+    },
+    {
+      "recipe_id": 203,
+      "recipe_name": "Vegetable Stir Fry",
+      "recipe_image": "https://images.unsplash.com/photo-1517292987719-0369a794ec0f?fit=crop&w=500&q=80",
+      "short_description": "A healthy mix of stir-fried vegetables served with soy sauce and sesame oil.",
+      "ingredients": [
+        "1 bell pepper",
+        "1 carrot",
+        "100g broccoli",
+        "100g mushrooms",
+        "2 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "2 cloves garlic",
+        "1 tsp ginger"
+      ],
+      "preparing_time": "20 minutes",
+      "calories": 250
+    },
+    {
+      "recipe_id": 204,
+      "recipe_name": "Grilled Chicken Salad",
+      "recipe_image": "https://images.unsplash.com/photo-1516251193007-45ef944ab0c6?fit=crop&w=500&q=80",
+      "short_description": "A light and refreshing salad with grilled chicken, mixed greens, and a citrus vinaigrette.",
+      "ingredients": [
+        "200g chicken breast",
+        "2 cups mixed greens",
+        "1/2 cucumber",
+        "1/4 cup cherry tomatoes",
+        "1 tbsp olive oil",
+        "1 tbsp lemon juice",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": "25 minutes",
+      "calories": 300
+    },
+    {
+      "recipe_id": 205,
+      "recipe_name": "Chocolate Chip Cookies",
+      "recipe_image": "https://images.unsplash.com/photo-1517433456452-f9633a875f6f?fit=crop&w=500&q=80",
+      "title": "Getting Started with Kubernetes",
+      "short_description": "Classic chocolate chip cookies with a soft and chewy center.",
+      "ingredients": [
+        "2 cups all-purpose flour",
+        "1 cup butter",
+        "1 cup brown sugar",
+        "1/2 cup white sugar",
+        "2 large eggs",
+        "1 tsp vanilla extract",
+        "1 tsp baking soda",
+        "1/2 tsp salt",
+        "200g chocolate chips"
+      ],
+      "preparing_time": "35 minutes",
+      "calories": 250
+    }
+  ]
+  
