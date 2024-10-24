@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { useEffect, useState } from "react";
 
 const Recipes = ({addRecipeToQueue}) => {
@@ -47,5 +48,9 @@ const Recipes = ({addRecipeToQueue}) => {
     </div>
   );
 };
+
+Recipes.propTypes = {
+  addRecipeToQueue:PropTypes.func.isRequired
+}
 
 export default Recipes;
